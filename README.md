@@ -7,19 +7,7 @@ Esta tarefa consiste na criação de um formulário em HTML, que:
 * Seja integrado com o Spark Java Framework.
 
 ## Detalhes técnicos
-Estrutura do diretório do projeto:
-
-```bash
-postgre-ti2/
-├── pom.xml
-└── src/
-    └── main/
-        └── java/
-            ├── Cliente.java
-            ├── ClienteDAO.java
-            └── Principal.java
-├── README.md
-```
+![Image](https://github.com/user-attachments/assets/6abe8764-fe36-4996-ae9a-6aff5469dc7a)
 
 Execute o maven:
 
