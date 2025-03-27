@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro CAIXA</title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <div class="header">
+        <img src="src/img/logo.png" alt="Logo" class="logo">
+    </div>
+    
+    <div class="container">
+        <h2>Cadastro de usuário com conta</h2>
+        <p>Dados da Conta</p>
+        <form id="cadastroForm">
+            <label for="agencia"><strong>Agência: </strong></label>
+            <input type="text" id="agencia" name="agencia" required>
+            
+            <label for="conta"><strong>Conta: </strong></label>
+            <input type="text" id="conta" name="conta" required>
+            
+            <label for="senha"><strong>Digite a senha da conta: </strong></label>
+            <input type="password" id="senha" name="senha" required>
+            <input type="checkbox" id="mostrarSenha"> Mostrar Senha
+            
+            <div class="number-pad">
+                <button type="button" onclick="adicionarNumero(8)">8</button>
+                <button type="button" onclick="adicionarNumero(9)">9</button>
+                <button type="button" onclick="adicionarNumero(6)">6</button>
+                <button type="button" onclick="adicionarNumero(1)">1</button>
+                <button type="button" onclick="adicionarNumero(0)">0</button>
+                <button type="button" onclick="adicionarNumero(4)">4</button>
+                <button type="button" onclick="adicionarNumero(2)">2</button>
+                <button type="button" onclick="adicionarNumero(7)">7</button>
+                <button type="button" onclick="adicionarNumero(5)">5</button>
+                <button type="button" onclick="adicionarNumero(3)">3</button>
+            </div>
+
+            <p></p>
+
+            <button type="button" class="btn" onclick="limparSenha()">Limpar</button>
+            
+            <div class="btn-container">
+                <button type="button" class="btn btn-back">Voltar</button>
+                <button type="submit" class="btn btn-confirm">Confirmar</button>
+            </div>
+        </form>
+    </div>
+    
+    <script src="src/js/script.js"></script>
+    
+</body>
+<footer class="footer">
+    Alô CAIXA 
+    <p>4004 0104 (Capitais) ou 0800 104 0104 (Demais regiões)</p>
+</footer>
+</html>

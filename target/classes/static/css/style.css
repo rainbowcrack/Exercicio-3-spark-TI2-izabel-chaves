@@ -1,0 +1,105 @@
+body {
+    font-family: inherit, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background: #0336bf;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.logo {
+    height: 150px; /* Ajuste o tamanho conforme necessário */
+    margin-right: 1000px;
+}
+.container {
+    width: 400px;
+    background: white;
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    min-height: calc(100vh - 80px); /* Ajusta a altura mínima considerando o footer */
+    padding-bottom: 20px; /* Espaçamento para não encostar no footer */
+}
+h2 {
+    color: #005ca9;
+}
+label {
+    display: block;
+    margin-top: 10px;
+}
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.btn {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 48%;
+}
+.btn-confirm {
+    background: #ffae00;
+    color: white;
+}
+.btn-confirm:hover {
+    background: #e69500;
+}
+.btn-back {
+    background: #007bff;
+    color: white;
+}
+.btn-back:hover {
+    background: #0056b3;
+}
+.number-pad {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 10px;
+}
+.number-pad button {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.footer {
+    background: #d3d3d3;
+    color: #333;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    width: 100%;
+    position: relative; /* Deixa o footer abaixo do conteúdo */
+    bottom: 0;
+}
+
+.no-account {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.no-account a {
+    color: #005ca9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.no-account a:hover {
+    text-decoration: underline;
+}
